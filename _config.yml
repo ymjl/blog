@@ -170,3 +170,5 @@ comments_provider: disqus
 disqus:
     username: icesugar
 # https://imsun.net/posts/gitment-introduction/
+
+theme: jekyll-theme-tactile
