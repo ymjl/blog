@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Spring Data JPA 分页之Page<Object> List到Page转换"
+title: "Spring Data JPA 分页之Page'<Object>' 接口 List到Page转换"
 category: "springboot"
 date: "2018-04-27 17:57"
 ---
