@@ -131,11 +131,6 @@ classes:
     name: Jvm系列文章
     describe: Java之根基，Java程序员必学
     
-  -
-    href: /java.html
-    name: java系列文章
-    describe: 对Java的学习总结.
-
 
 # ---------------- #
 #       RSS        #
