@@ -9,9 +9,47 @@ date: "2018-04-27 17:57"
 
   前端需要的数据需要后端从几个不同的表整合到一个dto中,有两种解决方案:
 
-    1, 直接持久层继承JpaSpecificationExecutor多表联合查询
-    jpa从数据库分页查出的是Page<Object> 格式的，虽然可以将其直接赋给dto的字段中，但是我想用另一种解决方案直接把整合起来的dto直接装换成Page<Dto> 这种格式,以加深对jpa分页的理解。
+    1. 多表联合查询,spring data jpa要进行复杂的查询需要在持久层继承JpaSpecificationExecutor接口.关于这个接口下面放一个例子,是我在项目中提供app多条件模糊查询使用的代码.参考清单1
 
+    2. 在server层进行关联,这样可以充分利用缓存,性能更高,提高可扩展性.但利用jpa分页查询会遇到类型转换的问题,jpa从数据库分页查出的是Page<Object> 格式的，需要封装一个dto 并 把分页信息填充进去 转换成Page<Dto> 。
+
+
+
+清单 1
+ ```java
+    //server层代码
+    public Page<CustomerEntity> searchCustomer(String input, Integer index, Integer size) {
+
+
+        Sort sort = new Sort(Sort.Direction.DESC, "id");
+        Pageable pageable = new PageRequest(index, size, sort);
+        //Predicate toPredicate(Root<T> root, CriteriaQuery<?> query, CriteriaBuilder cb); Root 可以实现 多表联合查询
+        Page<CustomerEntity> result = customerRepository.findAll((r, c, b) -> {
+            Path<String> name = r.get("name");
+            Path<String> idCard = r.get("idCard");
+            Path<String> phone = r.get("phone");
+            c.where(b.or(b.like(name, "%" + input + "%"), b.like(idCard, "%" + input + "%"), b.like(phone, "%" + input + "%")));
+
+            return null;
+        }, pageable);
+        for (CustomerEntity entity :
+                result) {
+            entity.setIdCard(StringUtil.idCardFilter(entity.getIdCard()));
+        }
+
+        return result;
+
+
+    }
+
+    //持久层代码
+    public interface CustomerRepository extends JpaRepository<CustomerEntity,Integer> ,JpaSpecificationExecutor {
+
+
+    Page<CustomerEntity> findAll(Specification spec, Pageable pageable);
+}
+
+ ```
 
 
 ## Page 源代码
@@ -183,7 +221,8 @@ public class PageUtil {
 
 ```
 
-## 如上转换 会造成有些分页数据出问题,真正的解决方案如下
+**如上转换 会造成有些分页数据出问题,真正的解决方案如下**
+
 比如：
 "last": true,
 "totalPages": 1,
