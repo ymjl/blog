@@ -1,1 +1,109 @@
-<mxfile host="app.diagrams.net" modified="2022-12-10T05:27:49.706Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" version="20.6.2" etag="l-6F7PjrimlXkImxC_rc" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7ZjbctowEIafhksYH8LpEggkM22SmZK218JabDWy5MoCQ56+K1uObZzSZJqUdIYrW7/W2tWu9rOh48/i3ZUiSXQjKfCO59Bdx7/seJ7reT5ejLIvlNHQLYRQMWqNKmHJHsGKjlU3jELaMNRScs2SphhIISDQDY0oJbOm2VrypteEhNASlgHhbfU7ozqyu/CGlX4NLIxKz+5gXMzEpDS2O0kjQmVWk/x5x58pKXVxF+9mwE3yyrwUzy1+M/sUmAKhX/IAvd3tbz8Ng+Fo9TnbphRurvtd1y6zJXxjd3ynwiAiStuo9b5MRZqxmBOBo2mkY46ii7epRltbN4wA56Rij1JoUloEZsAEqPt9Yqy0ArNGyElqimOeae+ljAuUhl1Nsnu7AhmDVns0sbMXNs3lObPDrCrasDxTUa1g3tiKxB6U8GnlKpd4Y9OZD7+moO5WP8xx8xxOVsCLRzteX5AY8NLxBhwdTFcK70Kd77BQWCOng58bU35MEZeq40/yNiD7aqJ6vJ/IlGkmRW15jIsdOmi7JGbLCtYNjzFhXMvcZR/MoFj2wO28mHnyRqq1Tc7y3eZbv4c0NX5uGOegbDnLgHOL2eKukLkMSCXfrdcswJQ5tuBFLPkUrn3hwI7ECYdeIGO7KicBRNjGoJqtzZl4KIRIa0OHiamft8iyrEcVyXpMFobHG8KrnTLbQbUesNWesrjgRtNVQIXfY3je10xgfEXQC0o0MZVCPcXrBk9Pl2xRVGkXY1/0jc9cTrs+BjDqJSJEH1nENCwT3C46yhCvzcZTcoNOqO2gejeZBruRW2ZWyU2NsMCUVUq74Y7j4cVt6A2afdhv96E7eqYPh69vQxzWOvE10PNb0GvBDgSdmNcHjlZ4Yh/uI4YndorygvGyBGskm0Wfa8ZA8d1h1wC+ktm8Eqa5gBMmlywwdDwo4StrksqNCuCPRxnfl0SFcHTFC9t7tPEubNdYAcfW3TZfjWdw/g045zQjihpySqVYaqJss3OqiMhtiEDsqKMc9T4IRy9OylHXeTuUNsnZguu7ofTgi8Z95pPmWZSO/iVK+2eUNgwHZ5SeDKVbgoE53/C3m36OotdfULpkCnMmjzO0fB+emqGDkzJ03PX+d4Qefo1+TIYOzwxtGI7ODD0VQye8+AZ1LqWQOU/bHF3uUw0IE2dCYyaOgtT/ICAdnRSkb4LR9/vMHJ+UkShV/4Hm5rV/kv35Lw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-12-10T11:02:32.252Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="K53I3IRNpZ-ak7qbNzBl" version="20.6.2" type="github" pages="2">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="652" dy="395" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-1" value="Categories Of Tokens " style="swimlane;startSize=20;horizontal=0;childLayout=treeLayout;horizontalTree=1;resizable=0;containerType=tree;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="150" width="470" height="243" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-2" value="Token" style="whiteSpace=wrap;html=1;" vertex="1" parent="lIEVkK7XvkVbSBbI1Cza-1">
+          <mxGeometry x="40" y="78.4" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-3" value="&lt;span style=&quot;color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Non-Fungible Token&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="lIEVkK7XvkVbSBbI1Cza-1">
+          <mxGeometry x="190" y="136.8" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-4" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="lIEVkK7XvkVbSBbI1Cza-1" source="lIEVkK7XvkVbSBbI1Cza-2" target="lIEVkK7XvkVbSBbI1Cza-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-5" value="&lt;span style=&quot;color: rgb(77, 81, 86); font-family: arial, sans-serif; font-size: 14px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;Fungible Token&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="lIEVkK7XvkVbSBbI1Cza-1">
+          <mxGeometry x="190" y="20" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-6" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;html=1;rounded=0;" edge="1" parent="lIEVkK7XvkVbSBbI1Cza-1" source="lIEVkK7XvkVbSBbI1Cza-2" target="lIEVkK7XvkVbSBbI1Cza-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-50" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;arial, sans-serif&quot; color=&quot;#4d5156&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Non-transferable NFT&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="lIEVkK7XvkVbSBbI1Cza-1">
+          <mxGeometry x="340" y="90.80000000000001" width="110" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="lIEVkK7XvkVbSBbI1Cza-1" source="lIEVkK7XvkVbSBbI1Cza-3" target="lIEVkK7XvkVbSBbI1Cza-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" target="lIEVkK7XvkVbSBbI1Cza-59" source="lIEVkK7XvkVbSBbI1Cza-3" parent="lIEVkK7XvkVbSBbI1Cza-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="190.4" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lIEVkK7XvkVbSBbI1Cza-59" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;font face=&quot;arial, sans-serif&quot; color=&quot;#4d5156&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Transferable NFT&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="lIEVkK7XvkVbSBbI1Cza-1">
+          <mxGeometry x="340" y="176.8" width="110" height="46" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="M5lJWyUyED5s4ODIk7gC" name="第 2 页">
+    <mxGraphModel dx="1849" dy="474" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-1" value="Defining the Soul of Man in the Metaverse" style="swimlane;startSize=20;horizontal=1;containerType=tree;shadow=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="40" width="1105" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-6" value="SOUL" style="ellipse;whiteSpace=wrap;html=1;align=center;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="500" y="40" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-53" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-9" target="sB4vsB9HRzHz2MQM2qCW-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-9" target="sB4vsB9HRzHz2MQM2qCW-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-57" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-9" target="sB4vsB9HRzHz2MQM2qCW-52">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-9" value="Derived Information from Virtual Worlds" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="700" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-27" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-6" target="sB4vsB9HRzHz2MQM2qCW-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="170" as="sourcePoint" />
+            <mxPoint x="320" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-52" value="Virtual Assets" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="810" y="195" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-54" value="Virtual Identity" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="960" y="195" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-56" value="Virtual Relations" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="657" y="195" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-65" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-7" target="sB4vsB9HRzHz2MQM2qCW-64">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-67" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-7" target="sB4vsB9HRzHz2MQM2qCW-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-69" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-7" target="sB4vsB9HRzHz2MQM2qCW-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-7" value="Mapping Real-World Information" style="whiteSpace=wrap;html=1;rounded=1;arcSize=50;align=center;verticalAlign=middle;strokeWidth=1;autosize=1;spacing=4;treeFolding=1;treeMoving=1;newEdgeStyle={&quot;edgeStyle&quot;:&quot;entityRelationEdgeStyle&quot;,&quot;startArrow&quot;:&quot;none&quot;,&quot;endArrow&quot;:&quot;none&quot;,&quot;segment&quot;:10,&quot;curved&quot;:1};shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="190" y="90" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-2" value="" style="edgeStyle=entityRelationEdgeStyle;startArrow=none;endArrow=none;segment=10;curved=1;rounded=0;" edge="1" parent="sB4vsB9HRzHz2MQM2qCW-1" source="sB4vsB9HRzHz2MQM2qCW-6" target="sB4vsB9HRzHz2MQM2qCW-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-64" value="Online Shopping, Speech and Interaction, Video, etc." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="40" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-66" value="Personal Identity Information, Address, Social Relations, Assets, etc." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="230" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sB4vsB9HRzHz2MQM2qCW-68" value="Biometric Information: Fingerprint, DNA, Iris, etc." style="rounded=1;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="sB4vsB9HRzHz2MQM2qCW-1">
+          <mxGeometry x="370" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
